@@ -1,0 +1,5 @@
+sns.lmplot(data=df_2021, x='total_spend', y='total_value', height=6, aspect=1.2)
+plt.title('Relationship between total_spend and total_value')
+plt.xlabel('Total Spend')
+plt.ylabel('Total Value')
+plt.show()
