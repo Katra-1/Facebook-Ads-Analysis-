@@ -53,7 +53,7 @@ Campaign-Level Analysis
 ROMI Exploration
 
 •	Created a boxplot to show the spread of daily ROMI across campaigns
-[Boxplot ROMI](./python_06_boxplot_romi_daily_by_campaign/)
+[Boxplot ROMI](./python/06_boxplot_romi_daily_by_campaign/)
 
 ![Preview](./preview/boxplot_romi.png)
 
@@ -78,7 +78,7 @@ Relationship Visualization
 
 •	Built a scatterplot with linear regression to visualize the relationship between
 total_spend and total_value
-[Regression](./python_09_spend_value/)
+[Regression](./python/09_spend_value/)
 
 ![Preview](./preview/spend_value.png)
 
