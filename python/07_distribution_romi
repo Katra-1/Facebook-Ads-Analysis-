@@ -1,0 +1,7 @@
+plt.figure(figsize=(10, 6))
+plt.hist(df_2021['ROMI'], bins=30, edgecolor='black')
+plt.title('Distribution ROMI')
+plt.xlabel('ROMI')
+plt.ylabel('Days number')
+plt.grid(True)
+plt.show()
