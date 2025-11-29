@@ -1,12 +1,12 @@
 Goal
 
 Using pandas, matplotlib.pyplot, and seaborn, based on a CSV file with advertising campaign data:
-	1.	Build visualizations showing changes in daily spend and ROMI in 2021.
-	2.	Analyze total spend and total ROMI across advertising campaigns.
-	3.	Identify the distribution (spread) of daily ROMI for each campaign (boxplot).
-	4.	Build a histogram of ROMI distribution.
-	5.	Show the correlation between all numerical metrics.
-	6.	Visualize the relationship between total_spend and total_value.
+1.	Build visualizations showing changes in daily spend and ROMI in 2021.
+2.	Analyze total spend and total ROMI across advertising campaigns.
+3.	Identify the distribution (spread) of daily ROMI for each campaign (boxplot).
+4.	Build a histogram of ROMI distribution.
+5.	Show the correlation between all numerical metrics.
+6.	Visualize the relationship between total_spend and total_value.
 
 Data
 
