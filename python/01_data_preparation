@@ -1,0 +1,6 @@
+df['ad_date'] = pd.to_datetime(df['ad_date'])
+df_2021 = df[df['ad_date'].between('2021-01-01', '2021-12-31')].copy()
+daily = df_2021.groupby('ad_date', as_index=False).sum()
+daily['ROMI'] = daily['total_value'] / daily['total_spend']
+daily['spend_rolling'] = daily['total_spend'].rolling(window=7).mean()
+daily['romi_rolling'] = daily['ROMI'].rolling(window=7).mean()
