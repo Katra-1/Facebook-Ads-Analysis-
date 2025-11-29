@@ -1,0 +1,7 @@
+plt.figure(figsize=(10,6))
+plt.barh(by_campaign['campaign_name'], by_campaign['ROMI'])
+plt.title('ROMI by campaign')
+plt.xlabel('ROMI')
+plt.ylabel('Campaign name')
+plt.grid(False)
+plt.show()
