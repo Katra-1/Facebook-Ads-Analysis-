@@ -1,0 +1,10 @@
+by_campaign = df_2021.groupby('campaign_name')[['total_spend', 'total_value']].sum().sort_values('total_spend', ascending=True)
+by_campaign['ROMI'] = by_campaign['total_value'] / by_campaign['total_spend']
+by_campaign = by_campaign.reset_index() 
+plt.figure(figsize=(10,6))
+plt.barh(by_campaign['campaign_name'], by_campaign['total_spend'])
+plt.title('Total spend by campaign')
+plt.xlabel('Total spend')
+plt.ylabel('Campaign name')
+plt.grid(False)
+plt.show()
