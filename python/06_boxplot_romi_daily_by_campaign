@@ -1,0 +1,9 @@
+df_2021['ROMI'] = df_2021['total_value'] / df_2021['total_spend']
+df_2021 = df_2021.replace([float('inf'), -float('inf')], None).dropna(subset=['ROMI'])
+plt.figure(figsize=(12, 6))
+df_2021.boxplot(column='ROMI', by='campaign_name', grid=False)
+plt.title('The spread of daily ROMI across campaigns (2021)')
+plt.suptitle('')
+plt.ylabel('ROMI')
+plt.xticks(rotation=45)
+plt.show()
