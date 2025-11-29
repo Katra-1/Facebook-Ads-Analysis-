@@ -15,13 +15,17 @@ CSV file with advertising campaign metrics (date, spend, revenue, campaign names
 
 Work Done
 
-Data Preparation & Processing
-	•	Grouped the data by day for the year 2021.
-	•	Calculated ROMI, moving average of spend, and moving average of ROMI.
+Data Preparation & Processing 
+•	Grouped the data by day for the year 2021
+•	Calculated ROMI, moving average of spend, and moving average of ROMI
+[Data Preparation](./python/01_data_preparation/)
 
 Trend Analysis
-	•	Built a chart of daily spend in 2021.
-	•	Built a chart of daily ROMI in 2021.
+•	Built a chart of daily spend in 2021
+[Dayly Spend](./python/02_daily_spend/)
+
+![Preview](./preview/daily_spend.png)
+•	Built a chart of daily ROMI in 2021
 
 Campaign-Level Analysis
 	•	Grouped data by campaign_name.
