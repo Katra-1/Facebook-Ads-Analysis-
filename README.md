@@ -18,6 +18,7 @@ Work Done
 Data Preparation & Processing 
 
 •	Grouped the data by day for the year 2021
+
 •	Calculated ROMI, moving average of spend, and moving average of ROMI
 [Data Preparation](./python/01_data_preparation/)
 
@@ -38,6 +39,7 @@ Trend Analysis
 Campaign-Level Analysis
 
 •	Grouped data by campaign_name
+
 •	Built a chart of total spend for each campaign
 [Spend by Campaign](./python/04_total_spend_by_campaign/)
 
@@ -67,7 +69,9 @@ ROMI Exploration
 Correlation Analysis
 
 •	Built a correlation heatmap for all numerical metrics
+
 •	Identified metrics with the highest and lowest correlation values
+
 •	Determined which metrics correlate with total_value
 [Correlation](./python/08_cor_between_metrics/)
 
@@ -87,11 +91,15 @@ Result
 
 A set of visualizations was created to demonstrate:
 
-•	the dynamics of spend and ROMI over time;
-•	comparison of metrics across campaigns;
-•	ROMI distribution;
-•	correlations between all numerical features;
-•	the relationship between total_spend → total_value.
+•	the dynamics of spend and ROMI over time
+
+•	comparison of metrics across campaigns
+
+•	ROMI distribution
+
+•	correlations between all numerical features
+
+•	the relationship between total_spend → total_value
 
 This allows for quick insights into the performance and effectiveness of online advertising campaigns.
 
@@ -101,4 +109,4 @@ Tools
 •	pandas
 •	matplotlib
 •	seaborn
-•	Jupyter Notebook / Google Colab
+•	Jupyter Notebook
