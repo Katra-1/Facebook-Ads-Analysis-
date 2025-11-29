@@ -30,10 +30,14 @@ Trend Analysis
 ![Preview](./preview/daily_spend.png)
 
 
+
+
 •	Built a chart of daily ROMI in 2021
 [Daily ROMI](./python/03_daily_romi_chart/)
 
 ![Preview](./preview/daily_romi.png)
+
+
 
 
 Campaign-Level Analysis
@@ -46,10 +50,14 @@ Campaign-Level Analysis
 ![Preview](./preview/total_spend_by_campaign.png)
 
 	
+
+
 •	Built a chart of total ROMI for each campaign
 [ROMI by Campaign](./python/05_romi_by_campaign/)
 
 ![Preview](./preview/romi_by_campaign.png)
+
+
 
 
 ROMI Exploration
@@ -60,10 +68,14 @@ ROMI Exploration
 ![Preview](./preview/boxplot_romi.png)
 
 	
+
+
 •	Built a histogram of ROMI distribution
 [ROMI Distribution](./python/07_distribution_romi/)
 
 ![Preview](./preview/distribution_romi.png)
+
+
 
 
 Correlation Analysis
@@ -78,6 +90,8 @@ Correlation Analysis
 ![Preview](./preview/heatmap_between_metrics.png)
 
 
+
+
 Relationship Visualization
 
 •	Built a scatterplot with linear regression to visualize the relationship between
@@ -85,6 +99,8 @@ total_spend and total_value
 [Regression](./python/09_spend_value/)
 
 ![Preview](./preview/spend_value.png)
+
+
 
 
 Result
