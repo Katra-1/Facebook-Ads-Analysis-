@@ -1,0 +1,21 @@
+numeric_df = df.select_dtypes(include=[np.number])
+corr_matrix = numeric_df.corr()
+plt.figure(figsize=(10, 8))
+plt.imshow(corr_matrix, cmap='coolwarm', interpolation='nearest')
+plt.colorbar(label='Correlation coefficient')
+plt.xticks(range(len(corr_matrix.columns)), corr_matrix.columns, rotation=45)
+plt.yticks(range(len(corr_matrix.columns)), corr_matrix.columns)
+plt.title('Correlations between metrics')
+for i in range(len(corr_matrix.columns)):
+    for j in range(len(corr_matrix.columns)):
+        value = corr_matrix.iloc[i, j] * 100
+        plt.text(j, i, f"{value:.0f}%", ha='center', va='center', color='black')
+plt.show()
+corr_unstacked = corr_matrix.unstack().dropna()
+corr_unstacked = corr_unstacked[corr_unstacked < 1]
+max_corr = corr_unstacked.abs().idxmax()
+min_corr = corr_unstacked.abs().idxmin()
+print(f"Max correlation between: {max_corr} = {corr_matrix.loc[max_corr]:.3f}")
+print(f"Min correlation between: {min_corr} = {corr_matrix.loc[min_corr]:.3f}")
+print("\n Correlation of total_value with other metrics:")
+print(corr_matrix['total_value'].sort_values(ascending=False))
