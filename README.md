@@ -50,7 +50,7 @@ Campaign-Level Analysis
 
 ROMI Exploration
 •	Created a boxplot to show the spread of daily ROMI across campaigns
-[Boxplot ROMI](./06_boxplot_daily_romi_by_campaign/)
+[Boxplot ROMI](./06_boxplot_romi_daily_by_campaign/)
 
 ![Preview](./preview/boxplot_romi.png)
 
